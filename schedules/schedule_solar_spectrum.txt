@@ -1,0 +1,12 @@
+# Solar Spectrum Schedule - Created 2025-05-19 15:37:47
+
+# Solar spectrum measurement routine
+log Starting Solar Spectrum measurement
+motor move 0
+wait 1000
+filter position 1
+wait 1000
+spectrometer start
+wait 2000
+spectrometer save
+log Solar Spectrum measurement completed
